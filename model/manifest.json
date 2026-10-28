@@ -1,0 +1,51 @@
+{
+  "dataset_source": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+  "archive_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "target": "Class",
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "random_state": 42,
+  "test_fraction": 0.2,
+  "deduplicated_rows": 13543,
+  "metric_convention": "macro precision/recall/F1; macro OVR AUC",
+  "models": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.1",
+    "openpyxl": "3.1.5",
+    "joblib": "1.4.2"
+  }
+}
