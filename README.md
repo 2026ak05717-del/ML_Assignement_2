@@ -7,7 +7,7 @@ The objective is to classify dry beans into seven varieties using numerical meas
 ## 2. Project Links
 
 - GitHub repository: https://github.com/2026ak05717-del/ML_Assignement_2
-- Live Streamlit application: **Not added yet. Replace this text with the verified public application URL before submission.**
+- Live Streamlit application: https://mlassignement2-y8euqds8fckpecfvmzfatp.streamlit.app/
 
 ## 3. Dataset Description
 
